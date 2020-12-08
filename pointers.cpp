@@ -12,4 +12,12 @@ int main() {
     cout << endl;
     for (int x : v)
         cout << x << " ";
+    
+    cout << endl;
+
+    auto b = v.begin();
+    auto e = v.end();
+    for (; b != e; ++b) {
+        cout << *b << " ";
+    }
 }
